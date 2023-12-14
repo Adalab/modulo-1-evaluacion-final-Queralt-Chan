@@ -5,13 +5,10 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 20px;
     padding-top: 20px;
-    margin-left: 40px;
-   
-   
-   
+    // margin-left: 40px;
     gap:10px;
+    padding-left: 40px;
 
     .tip {
         color: #f26002;
@@ -30,7 +27,7 @@
     background-color: #f2f2f2; 
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr; 
     justify-content: center; 
     text-align: center;
     padding-top: 68px;
