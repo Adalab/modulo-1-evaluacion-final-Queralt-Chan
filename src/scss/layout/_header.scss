@@ -19,7 +19,13 @@
     gap:20px;
     font-size: 25px;
 
-
+    @media (min-width:768){
+        display: flex;
+        align-items: center;
+        margin-top: 500px;
+        
+        
+    }
    }
      .header-text {
 
