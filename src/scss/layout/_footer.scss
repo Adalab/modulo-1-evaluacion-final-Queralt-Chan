@@ -1,19 +1,54 @@
 .footer {
     background-color: #4a4a4a;
     height: 465px;
-    color:white;
-
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
     .copy {
+
         color:white;
-        margin-top: 30px;
-     } 
-}
+        
     
  
-.lulist {
-    color:white;
-    
+    }
+    .nav {
+
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+
+
+
+& ul li a{
+    text-decoration: none;
+    color: white; 
 }
+
+   
+    }
+   
+    .list {
+        text-align: center;
+        list-style: none;
+        text-transform: uppercase;
+        
+
+
+        & li {
+            gap:20px;
+        }
+    }
+ }
+
+
+
 
   
   
